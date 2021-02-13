@@ -1,0 +1,303 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* section-1 */
+
+.section-1-main-box {
+    background-image: url(../images/banner.jpg);
+    width: 100%;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/* navigation */
+
+#navigation {
+    background: none;
+    border: none;
+    padding-top: 2%;
+}
+
+#navigation .navbar-toggle {
+    background: none;
+    border: none;
+    color: #fff;
+}
+
+#navigation .navbar-toggle:hover {
+    background-color: #2B8FC4;
+}
+
+#navigation .icon-bar {
+    background-color: #fff;
+}
+
+#navigation .navbar-brand {
+    font-size: 26px;
+    font-weight: 700;
+    color: #fff;
+}
+
+#navigation ul li a {
+    color: #fff;
+}
+
+#navigation ul li a:hover {
+    background-color: #2B8FC4;
+    border-radius: 3px;
+}
+
+
+/* section-1-body */
+
+.section-1-body {
+    color: #fff;
+    padding-top: 12%;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-1-body h1 {
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.section-1-body p {
+    font-size: 18px;
+    line-height: 38px;
+}
+
+.btn {
+    width: 120px;
+    height: 50px;
+    background-color: #2B8FC4;
+    padding: 5px 6px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.button-margin {
+    margin-bottom: 10%;
+}
+
+
+/* section-2 */
+
+.section-2-main-box {
+    background-color: #0C0E0F;
+    padding: 5% 0%;
+    color: #c1c1c1;
+}
+
+.section-2-main-box h3 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.icon {
+    font-size: 60px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.section-2-main-box p {
+    font-size: 17px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+
+/* section-3 */
+
+.section-3-main-box {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #101214;
+    color: #c1c1c1;
+}
+
+.section-3-img h1 {
+    margin-bottom: 25px;
+}
+
+.section-3-img img {
+    width: 100%;
+}
+
+.section-3-img p {
+    line-height: 28px;
+    margin-top: 23px;
+    font-size: 15px;
+}
+
+.margin-top {
+    margin-top: 23px;
+}
+
+.section-3-img {
+    border-bottom: 1px solid #fff;
+}
+
+.section-3-left-box h1 {
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.section-3-main-box span {
+    font-weight: 700;
+    color: #fff;
+}
+
+.section-3-main-box p {
+    line-height: 27px;
+    font-size: 16px;
+}
+
+.btn-1 {
+    width: 80px;
+    height: 30px;
+    background-color: #2B8FC4;
+    padding: 4px 6px;
+    border-radius: 2px;
+    margin-right: 10px;
+    font-size: 13px;
+    border: none;
+    color: #fff;
+}
+
+.left-box p {
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.left-box-2 {
+    border-top: 1px solid #fff;
+    padding-top: 22px;
+}
+
+.right-box li {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.right-box h4 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.right-box-1 li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 20px;
+}
+
+.right-box-2 {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 12px;
+}
+
+.right-box-3 {
+    padding-top: 22px;
+}
+
+.margin {
+    margin-top: 40px;
+}
+
+.right-box-list li {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+}
+
+.border {
+    border-bottom: 1px solid #fff;
+}
+
+.right-box-heading h1 {
+    font-size: 28px;
+    margin-bottom: 35px;
+}
+
+.right-box-img-para {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.right-box-img-para img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.img-padding {
+    padding-left: 0;
+}
+
+
+/* media quary */
+
+@media only screen and (max-width:1199px) {
+    .border {
+        border: none;
+    }
+    .right-box-heading h1 {
+        text-align: center;
+    }
+    .right-box-list h3 {
+        text-align: center;
+    }
+    .right-box-img-para img {
+        width: 26%;
+    }
+    .right-box-img-para {
+        text-align: center;
+    }
+    .center {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:670px) {
+    .section-1-body {
+        padding-top: 4%;
+    }
+    .section-1-body h1 {
+        font-size: 27px;
+        margin-bottom: 23px;
+    }
+    .section-1-body p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+}
+
+@media only screen and (max-width:416px) {
+    .right-box-list h3 {
+        font-size: 18px;
+    }
+    .right-box-list li {
+        font-size: 13px;
+    }
+    .section-1-body h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .section-1-body p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+}
